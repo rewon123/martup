@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const AllProducts = () => {
     return (
@@ -54,16 +55,16 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-1.webp" alt="" />
                                                                 <ul class="tooltip-tag-items">
                                                                     <li class="color-green">15%</li>
                                                                 </ul>
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">MEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Man's Outdoor Shirt</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Man's Outdoor Shirt</Link></h4>
                                                                     <span class="price">$355.00 <del>$400.00</del></span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -88,13 +89,13 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-2.webp" alt="" />
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Women Summer deal</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Women Summer deal</Link></h4>
                                                                     <span class="price">$550.00</span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -119,13 +120,13 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-3.webp" alt="" />
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Women Luxury Party</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Women Luxury Party</Link></h4>
                                                                     <span class="price">$1050.00</span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -141,25 +142,23 @@ const AllProducts = () => {
                                                                         <a href="wishlist.html" class="btn wishlist-btn"><span class="material-icons">favorite_border</span></a>
                                                                     </div>
                                                                 </div>
-
                                                             </div>
-
                                                         </div>
                                                         {/* <!-- End Product Single Item - Style 1 --> */}
                                                     </div>
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1 swiper-slide">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-5.webp" alt="" />
                                                                 <ul class="tooltip-tag-items">
                                                                     <li class="color-yellow">15%</li>
                                                                 </ul>
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Star Women pants</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Star Women pants</Link></h4>
                                                                     <span class="price">$200.00 <del>$300.00</del></span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -184,16 +183,16 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1 swiper-slide">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-1.webp" alt="" />
                                                                 <ul class="tooltip-tag-items">
                                                                     <li class="color-green">15%</li>
                                                                 </ul>
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">MEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Man's Outdoor Shirt</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Man's Outdoor Shirt</Link></h4>
                                                                     <span class="price">$355.00 <del>$400.00</del></span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -218,13 +217,13 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-2.webp" alt="" />
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Women Summer deal</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Women Summer deal</Link></h4>
                                                                     <span class="price">$550.00</span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -249,13 +248,13 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-4.webp" alt="" />
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Slightly jackets XL Cool </a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Slightly jackets XL Cool </Link></h4>
                                                                     <span class="price">$350.00</span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -280,13 +279,13 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-3.webp" alt="" />
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">WOMEN</span>
-                                                                    <h4 class="title"><a href="/details/1212">Women Luxury Party</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Women Luxury Party</Link></h4>
                                                                     <span class="price">$1050.00</span>
                                                                 </div>
                                                                 <div class="bottom">
@@ -311,16 +310,16 @@ const AllProducts = () => {
                                                     <div class="col-xl-4 col-md-6 col-12 mb-25">
                                                         {/* <!-- Start Product Single Item - Style 1 --> */}
                                                         <div class="product-single-item-style-1">
-                                                            <a href="/details/1212" class="image img-responsive">
+                                                            <Link to='/details' class="image img-responsive">
                                                                 <img class="img-fluid" src="assets/images/products/default/product-default-style-1-img-6.webp" alt="" />
                                                                 <ul class="tooltip-tag-items">
                                                                     <li class="color-green">15%</li>
                                                                 </ul>
-                                                            </a>
+                                                            </Link>
                                                             <div class="content">
                                                                 <div class="top">
                                                                     <span class="catagory">Bag</span>
-                                                                    <h4 class="title"><a href="/details/1212">Distracted XL bag</a></h4>
+                                                                    <h4 class="title"><Link to='/details'>Distracted XL bag</Link></h4>
                                                                     <span class="price">$1200.00 <del>$1500.00</del></span>
                                                                 </div>
                                                                 <div class="bottom">

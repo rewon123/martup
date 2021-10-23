@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
     return (
@@ -83,7 +84,7 @@ const Products = () => {
                                         </div>
                                         {/* <!-- End Tab Content Single Item --> */}
                                         <div class="d-flex justify-content-center">
-                                            <a href="shop-grid-sidebar-left.html" class="btn btn-md btn-default btn-section-bottom">View All Product</a>
+                                            <Link to='/allProducts'  class="btn btn-md btn-default btn-section-bottom">View All Product</Link>
                                         </div>
                                     </div>
                                 </div>

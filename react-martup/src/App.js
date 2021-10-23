@@ -7,6 +7,8 @@ import {
 import HomePage from './views/HomePage/HomePage';
 import AllProducts from './views/AllProducts/AllProducts';
 import ProductDetails from './views/ProductDetails/ProductDetails';
+import Cart from './views/Cart/Cart';
+import Checkout from './views/Checkout/Checkout';
 
 
 function App() {
@@ -14,6 +16,14 @@ function App() {
     <div>
       <Router>
         <Switch>
+
+        <Route exact path='/checkout'>
+            <Checkout></Checkout>
+          </Route>
+
+        <Route exact path='/cart'>
+            <Cart></Cart>
+          </Route>
 
           <Route exact path='/details'>
             <ProductDetails></ProductDetails>

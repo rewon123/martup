@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -22,7 +23,7 @@ const Header = () => {
                                         <button class="main-menu-event dropdown-toggle" data-bs-toggle="dropdown"><img src="assets/images/icons/icon-open-menu.svg" alt="" /><span>Menu</span><img src="assets/images/icons/icon-arrow-drop-down.svg" alt="" /></button>
                                         <ul class="mainmenu-nav dropdown-menu">
                                             <li class="menu-items">
-                                                <a href="index.html">Home <span class="material-icons">arrow_right</span></a>
+                                                <Link to="/">Home <span class="material-icons">arrow_right</span></Link>
                                                 <div class="has-dropdown">
                                                     <div class="menu-content">
                                                         <h6 class="title">Home Page</h6>
@@ -174,24 +175,11 @@ const Header = () => {
                             <div class="offcanvas-menu">
                                 <ul>
                                     <li>
-                                        <a href="/#"><span>Home</span></a>
-                                        <ul class="mobile-sub-menu">
-                                            <li><a href="index.html">Home 1</a></li>
-                                            <li><a href="index-2.html">Home 2</a></li>
-                                        </ul>
+                                        <Link to="/"><span>Home</span></Link>
                                     </li>
                                     <li>
-                                        <a href="/#"><span>Shop</span></a>
-                                        <ul class="mobile-sub-menu">
-                                            <li>
-                                                <a href="/">Shop Page</a>
-                                                <ul class="mobile-sub-menu">
-                                                    <li><a href="shop-grid-sidebar-left.html">Left Sidebar</a></li>
-                                                    <li><a href="shop-grid-sidebar-right.html">Right Sidebar</a></li>
-                                                    <li><a href="shop-grid-sidebar-full-width-3-column.html">Shop Full Width</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                        <Link to="/allProducts"><span>Shop</span></Link>
+                                        
                                         <ul class="mobile-sub-menu">
                                             <li>
                                                 <a href="/#">Product Page</a>
